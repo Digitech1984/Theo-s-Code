@@ -1,0 +1,12 @@
+#question list
+question_list =["How many times has england won a football world cup"]
+#answer list
+answer_list = ["1"]
+#import random
+import random
+#pick random from question list
+question = random.choice(question_list)
+#if "x" letter is chosen "y" question is print
+user_answer = input(question)
+if user_answer == "1" :
+  print("correct")
